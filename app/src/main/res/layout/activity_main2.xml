@@ -86,8 +86,7 @@
         android:textSize="40px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.937"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCapitale"
         app:layout_constraintTop_toBottomOf="@+id/imgLondon"
         app:layout_constraintVertical_bias="0.155" />
 
@@ -112,7 +111,7 @@
     <TextView
         android:id="@+id/tvLangue2"
         android:layout_width="wrap_content"
-        android:layout_height="29dp"
+        android:layout_height="31dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -125,10 +124,9 @@
         android:textSize="40px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.937"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvLangue"
         app:layout_constraintTop_toBottomOf="@+id/imgLondon"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintVertical_bias="0.324" />
 
     <TextView
         android:id="@+id/tvResume"
